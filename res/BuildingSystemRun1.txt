@@ -1,0 +1,108 @@
+Building Elevator System Initialized
+Available commands: start, stop, step, addRequest [startFloor] [endFloor], status, quit
+Enter command: start
+Elevator system started.
+Enter command: addRequest 10 5
+Request added.
+Enter command: addRequest 5 8
+Request added.
+Enter command: addRequest 1 8
+Request added.
+Enter command: addRequest 0 7
+Request added.
+Enter command: addRequest 9 3
+Request added.
+Enter command: step
+Elevator system stepped.
+Enter command: step
+Elevator system stepped.
+Enter command: step
+Elevator system stepped.
+Enter command: step
+Elevator system stepped.
+Enter command: status
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 10
+System Status: Running
+Elevator Reports:
+[0|^|C  ]< --  1 -- -- --  5 --  7  8 -- -->
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Up Requests: 0
+Down Requests: 2
+
+Enter command: step
+Elevator system stepped.
+Enter command: status
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 10
+System Status: Running
+Elevator Reports:
+[1|^|C  ]< --  1 -- -- --  5 --  7  8 -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests: 0
+Down Requests: 2
+
+Enter command: step
+Elevator system stepped.
+Enter command: status
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 10
+System Status: Running
+Elevator Reports:
+[1|^|O 3]< -- -- -- -- --  5 --  7  8 -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests: 0
+Down Requests: 2
+
+Enter command: step
+Elevator system stepped.
+Enter command: step
+Elevator system stepped.
+Enter command: step
+Elevator system stepped.
+Enter command: status
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 10
+System Status: Running
+Elevator Reports:
+[1|^|C  ]< -- -- -- -- --  5 --  7  8 -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests: 0
+Down Requests: 2
+
+Enter command: stop
+Elevator system stopping.
+Enter command: quit
+Exiting the system.
